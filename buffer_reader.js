@@ -11,6 +11,7 @@ class BufferReader{
         this.m_pos += len;
         this.m_buffers.copy(buf, 0, readpos, readpos+len);
         return buf;
+        
     }
 
     readUInt8() {
